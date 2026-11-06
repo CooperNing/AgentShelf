@@ -1,0 +1,7 @@
+{
+  "n_queries": 400,
+  "proxy_pairwise_exact_vs_irrelevant": 0.652,
+  "proxy_pairwise_exact_vs_substitute": 0.599,
+  "proxy_pick_accuracy_1_of_5": 0.405,
+  "random_pick_baseline": 0.2
+}

@@ -1,0 +1,86 @@
+{
+  "n_pairs": 40000,
+  "base_exact_rate": 0.606,
+  "lifts": [
+    {
+      "feature": "query_coverage",
+      "label": "Share of the shopper's words found in title + bullets",
+      "exact_rate_high": 0.802,
+      "exact_rate_low": 0.485,
+      "coef": 0.504
+    },
+    {
+      "feature": "title_coverage",
+      "label": "Share of the shopper's words found in the title",
+      "exact_rate_high": 0.76,
+      "exact_rate_low": 0.484,
+      "coef": 0.352
+    },
+    {
+      "feature": "title_words",
+      "label": "Title length (words)",
+      "exact_rate_high": 0.617,
+      "exact_rate_low": 0.595,
+      "coef": -0.108
+    },
+    {
+      "feature": "attr_coverage",
+      "label": "Share of key attributes stated (size, materials, warranty, ...)",
+      "exact_rate_high": 0.621,
+      "exact_rate_low": 0.596,
+      "coef": -0.073
+    },
+    {
+      "feature": "n_bullets",
+      "label": "Number of bullet points",
+      "exact_rate_high": 0.611,
+      "exact_rate_low": 0.542,
+      "coef": 0.032
+    },
+    {
+      "feature": "fluff_per_100",
+      "label": "Marketing fluff words per 100 words",
+      "exact_rate_high": 0.619,
+      "exact_rate_low": 0.593,
+      "coef": -0.009
+    },
+    {
+      "feature": "desc_words",
+      "label": "Description length (words)",
+      "exact_rate_high": 0.623,
+      "exact_rate_low": 0.592,
+      "coef": -0.002
+    },
+    {
+      "feature": "n_specs",
+      "label": "Number of measurable specs (numbers with units)",
+      "exact_rate_high": 0.627,
+      "exact_rate_low": 0.586,
+      "coef": -0.001
+    }
+  ],
+  "coverage_bins": [
+    {
+      "bin": "0-25%",
+      "exact_rate": 0.372,
+      "n": 8068
+    },
+    {
+      "bin": "25-50%",
+      "exact_rate": 0.52,
+      "n": 10568
+    },
+    {
+      "bin": "50-75%",
+      "exact_rate": 0.592,
+      "n": 8877
+    },
+    {
+      "bin": "75-100%",
+      "exact_rate": 0.84,
+      "n": 12487
+    }
+  ],
+  "missing_desc_share": 0.544,
+  "few_bullets_share": 0.104
+}
